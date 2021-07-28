@@ -19,10 +19,24 @@ To test that this python battleships game was working correctly, I first added a
 I also tested the python using
 ## Technology
 * Python was the main language used in this battleships game. An extension of python had to be installed for it to be used correctly.
-* I used GitHub to store my code
-* I used GitPod to write my code
-* I used [heroku](https://dashboard.heroku.com/apps) to deploy my python project
+* I used [GitHub](https://github.com/CaoiveMcTigue) to store my code
+* I used [GitPod](https://gitpod.io/workspaces) to write my code
+* I used [Heroku](https://dashboard.heroku.com/apps) to deploy my python project
 ## Deployment
+I used heroku to deploy my python project. There was a number of steps to follow in order for the project to deploy correctly these included:<br>
+1. The first set is to edit the gitpod code a little. Anywhere that includes an input field you must add an "\n" after the input field instead of a space.<br>
+For example: ("Enter your name:\n")
+2. As this is my very first time to use [Heroku](https://dashboard.heroku.com/apps), I had to create an account. This was very straightforward and easy to follow. I filled out the required fields within the form, some fields that were a little trickier to understand included the "Role" field which I selected "student" and "Primary development language" for which I selected "python".
+3. Now that my [Heroku](https://dashboard.heroku.com/apps) account is set up correctly. The next step is to create the app, you can do this clicking the create new app button. Then name your app. With [Heroku](https://dashboard.heroku.com/apps) you can only use a name once as Battleship was already taken, I named my app battleship1. Underneath the naming field, you must then select a region, here I selected europe as my region. Then click the "create app" button.
+4. Now select the setting tabs from the several tabs located at the top of the page. Here I added some buildpacks. Buildpacks install dependencies that we need to build the app. To do this I simply clicked the "add buildpack" button. This displays a pop up box. Add the python buildpack and click the "save changes" button. Repeat this if you need to add more buildpacks to your app but remember to save changes after each buildpack you select. I repeated the above process to also add the node.js buildpack to my app.
+5. Next I went back up to the tabs section and clicked the deploy tab. Within the deployment method section, I selected github and clicked the "connect to github" button, this took me to a new webpage where I had to put in my github password to connect. Once this had connected I then searched for the github repository name "Battleship" and then click connect again to link the [Heroku](https://dashboard.heroku.com/apps) app and the [github](https://github.com/CaoiveMcTigue) repository code.
+6. After this, you have two options.<br>
+    A) You can set up automatic deploy, this enables [Heroku](https://dashboard.heroku.com/apps) to rebuild your app automatically everytime you push a new change to [github](https://github.com/CaoiveMcTigue).<br>
+    B) You can choose to manually deploy your app, using a deploy branch option.<br>
+<br>
+I used the sutomatic deploy option, as i felt it would be much easier to have the code deployed everytime it was pushed to [github](https://github.com/CaoiveMcTigue). Once you select your option, you can see the different packages and code running to build your app.
+7. Finally you will see "app was successfully deployed" message and a button to take you to the deployed link.
+8. The program will run automatically from this link and any time you want to restart it, click the "run program" button at the top of the page.
 ## Credits
 As always I relied heavily on my code institute [course notes.](https://discuss.codecademy.com/t/excellent-battleship-game-written-in-python/430605)<br>I also used a number of websites and Youtube videos when building this battleships game in python these include:<br>
 ### Youtube Video

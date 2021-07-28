@@ -152,7 +152,7 @@ def valid_bullet_placement():
     row = -1
     col = -1
     while is_valid_placement is False:
-        placement = input("Enter row (A-J) and column (0-9) such as A3: ")
+        placement = input("Enter row (A-J) and column (0-9) such as A3:\n")
         placement = placement.upper()
         if len(placement) <= 0 or len(placement) > 2:
             print("Error: Please enter only one row and column such as A3")
