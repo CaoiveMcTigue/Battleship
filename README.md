@@ -14,14 +14,26 @@ The legend in this game is as follows:<br>
 "O" = part of the ship (unhit)<br>
 "X" = part of the ship hit with a bullet<br>
 "#" = empty space hit with a bullet (a miss because it hit no ship)<br>
-## Testing
-To test that this python battleships game was working correctly, I first added a function to my code called debug_mode. This debug_mode is equal to false when the game is being played but to test that all functions in my code were working correctly I set this equal to true (debug_mode = True). What this did is aloud me to see where the computer had placed the ships using the symbol from the above legend of "O", when these symbol were visible I could hit and miss while playing the game to ensure the correct message was being displayed in these situations.<br>
-I also tested the python using
 ## Technology
 * Python was the main language used in this battleships game. An extension of python had to be installed for it to be used correctly.
-* I used [GitHub](https://github.com/CaoiveMcTigue) to store my code
-* I used [GitPod](https://gitpod.io/workspaces) to write my code
-* I used [Heroku](https://dashboard.heroku.com/apps) to deploy my python project
+* I used [GitHub](https://github.com/CaoiveMcTigue) to store my code.
+* I used [GitPod](https://gitpod.io/workspaces) to write my code.
+* I used [Heroku](https://dashboard.heroku.com/apps) to deploy my python project.
+* I used [PEP8](http://pep8online.com/) to test my code. To fix and error or warnings. 
+## Testing
+To test that this python battleships game was working correctly, I first added a function to my code called debug_mode. This debug_mode is equal to false when the game is being played but to test that all functions in my code were working correctly I set this equal to true (debug_mode = True). What this did is aloud me to see where the computer had placed the ships using the symbol from the above legend of "O", when these symbol were visible I could hit and miss while playing the game to ensure the correct message was being displayed in these situations.<br>
+<br>
+I used the above function to test that the battleship game was working as expected. If the length of the input by the player is less then or equal to 0 or greater than 2, an error message is outputted. If the row input is not a letter or the column input is not a number, an error message is outputted. If the inputted row is off the grid, an error message is outputted. If the inputted column is off the grid, an error message is outputted. All the above display the same error message which is "Error: Please enter letter (A-J) for row and (0-9) for column"<br>
+<br>
+If the shot hits a "#" (empty space that was shot with a bullet) or "X" (part of the ship that was hit with a bullet), an error message of "You have already shot a bullet here, pick somewhere else."<br>
+Otherwise hitting a "." or "O" is fine and no error message will appear.<br>
+<br>
+Using the debug mode, I tested all these functions were working correctly and to my delighted they did.<br>
+<br>
+I had a number of problems when writing my code these were mostly down to syntax errors. I fixed them by breaking up lines of code that had too many characters in them. Another big problem was white spacing, to fix these problems I either had to add or remove white space where indicated.I have included two screenshot below, of before and after these problems.<br>
+<br>
+I also tested the python using [PEP8](http://pep8online.com/). Which I have also included a screen of below.
+
 ## Deployment
 I used heroku to deploy my python project. There was a number of steps to follow in order for the project to deploy correctly these included:<br>
 1. The first set is to edit the gitpod code a little. Anywhere that includes an input field you must add an "\n" after the input field instead of a space.<br>
