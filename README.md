@@ -46,12 +46,14 @@ For example: ("Enter your name:\n")
     A) You can set up automatic deploy, this enables [Heroku](https://dashboard.heroku.com/apps) to rebuild your app automatically everytime you push a new change to [github](https://github.com/CaoiveMcTigue).<br>
     B) You can choose to manually deploy your app, using a deploy branch option.<br>
 <br>
-I used the sutomatic deploy option, as i felt it would be much easier to have the code deployed everytime it was pushed to [github](https://github.com/CaoiveMcTigue). Once you select your option, you can see the different packages and code running to build your app.
+I used the automatic deploy option, as i felt it would be much easier to have the code deployed everytime it was pushed to [github](https://github.com/CaoiveMcTigue). Once you select your option, you can see the different packages and code running to build your app.
 7. Finally you will see "app was successfully deployed" message and a button to take you to the deployed link.
 8. The program will run automatically from this link and any time you want to restart it, click the "run program" button at the top of the page.
+
 ## Credits
 As always I relied heavily on my code institute [course notes.](https://discuss.codecademy.com/t/excellent-battleship-game-written-in-python/430605)<br>I also used a number of websites and Youtube videos when building this battleships game in python these include:<br>
 ### Youtube Video
+
 * [freeCodeCamp.org](https://www.youtube.com/watch?v=rfscVS0vtbw&t=222s)
 * [Programming with Mosh](https://www.youtube.com/watch?v=_uQrJ0TkZlc)
 * [freeCodeCamp.org](https://www.youtube.com/watch?v=8ext9G7xspg&t=2134s)
@@ -59,6 +61,7 @@ As always I relied heavily on my code institute [course notes.](https://discuss.
 * [Robert Heaton](https://www.youtube.com/channel/UCOp0YjvVlwp-GfdpgX0V3sA)
 * [CS Students](https://www.youtube.com/watch?v=MgJBgnsDcF0)
 ### Websites
+
 * [w3school](https://www.w3schools.com/python/default.asp)
 * [stackoverflow](https://stackoverflow.com/questions/tagged/python)
 * [CodeCademy](https://discuss.codecademy.com/t/excellent-battleship-game-written-in-python/430605)
