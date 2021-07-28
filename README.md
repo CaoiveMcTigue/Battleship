@@ -18,9 +18,10 @@ The legend in this game is as follows:<br>
 To test that this python battleships game was working correctly, I first added a function to my code called debug_mode. This debug_mode is equal to false when the game is being played but to test that all functions in my code were working correctly I set this equal to true (debug_mode = True). What this did is aloud me to see where the computer had placed the ships using the symbol from the above legend of "O", when these symbol were visible I could hit and miss while playing the game to ensure the correct message was being displayed in these situations.<br>
 I also tested the python using
 ## Technology
-* Python was the main language used in this battleships game. An extension of python had to be installed for it to be used correctly.<br>
+* Python was the main language used in this battleships game. An extension of python had to be installed for it to be used correctly.
 * I used GitHub to store my code
 * I used GitPod to write my code
+* I used [heroku](https://dashboard.heroku.com/apps) to deploy my python project
 ## Deployment
 ## Credits
 As always I relied heavily on my code institute [course notes.](https://discuss.codecademy.com/t/excellent-battleship-game-written-in-python/430605)<br>I also used a number of websites and Youtube videos when building this battleships game in python these include:<br>
