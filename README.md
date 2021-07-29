@@ -31,8 +31,12 @@ Otherwise hitting a "." or "O" is fine and no error message will appear.<br>
 Using the debug mode, I tested all these functions were working correctly and to my delighted they did.<br>
 <br>
 I had a number of problems when writing my code these were mostly down to syntax errors. I fixed them by breaking up lines of code that had too many characters in them. Another big problem was white spacing, to fix these problems I either had to add or remove white space where indicated.I have included two screenshot below, of before and after these problems.<br>
+![image-with-code-errors](https://raw.githubusercontent.com/CaoiveMcTigue/Battleship/main/readme_screenshots/problem-image.png)<br>
 <br>
-I also tested the python using [PEP8](http://pep8online.com/). Which I have also included a screen of below.
+![image-with-no-code-errors](https://raw.githubusercontent.com/CaoiveMcTigue/Battleship/main/readme_screenshots/no-problem-image.png)<br>
+<br>
+I also tested the python using [PEP8](http://pep8online.com/). Which I have also included a screenshot of below.
+![pep8-testing-image](https://raw.githubusercontent.com/CaoiveMcTigue/Battleship/main/readme_screenshots/pep8.png)
 
 ## Deployment
 I used heroku to deploy my python project. There was a number of steps to follow in order for the project to deploy correctly these included:<br>
@@ -50,6 +54,9 @@ I used the automatic deploy option, as i felt it would be much easier to have th
 7. Finally you will see "app was successfully deployed" message and a button to take you to the deployed link.
 8. The program will run automatically from this link and any time you want to restart it, click the "run program" button at the top of the page.
 
+![Heroku-successful-deployment](https://raw.githubusercontent.com/CaoiveMcTigue/Battleship/main/readme_screenshots/deployment.png)
+<br><br>
+Visit the deployed site [here](https://battleship1.herokuapp.com/).
 ## Credits
 As always I relied heavily on my code institute [course notes.](https://discuss.codecademy.com/t/excellent-battleship-game-written-in-python/430605)<br>I also used a number of websites and Youtube videos when building this battleships game in python these include:<br>
 ### Youtube Video
