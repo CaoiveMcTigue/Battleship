@@ -121,7 +121,7 @@ def print_grid():
     global grid
     global alphabet
 
-    debug_mode = False
+    debug_mode = True
 
     alphabet = alphabet[0: len(grid) + 1]
 
