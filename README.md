@@ -29,6 +29,8 @@ I used the above function to test that the battleship game was working as expect
 <br>
 If the shot hits a "#" (empty space that was shot with a bullet) or "X" (part of the ship that was hit with a bullet), an error message of "You have already shot a bullet here, pick somewhere else."<br>
 Otherwise hitting a "." or "O" is fine and no error message will appear.<br>
+
+![testing-photo](https://github.com/CaoiveMcTigue/Battleship/blob/main/readme_screenshots/testing.png?raw=true)<br>
 <br>
 Using the debug mode, I tested all these functions were working correctly and to my delighted they did.<br>
 <br>
