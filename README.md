@@ -1,5 +1,5 @@
 # Read me for Battleship Game
-
+Visit the live site [here](https://battleship1.herokuapp.com/).
 ## Introduction
 The sole purpose for this python project was following a brief layout for my third milestone project, building a battleship game using python was suggested as an idea within the brief therefore I decided to give it a go.<br>
 Using a game, I feel is a fun and interactive way to display my knowledge in python.
