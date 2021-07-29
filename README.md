@@ -61,6 +61,55 @@ I used the automatic deploy option, as i felt it would be much easier to have th
 ![Heroku-successful-deployment](https://raw.githubusercontent.com/CaoiveMcTigue/Battleship/main/readme_screenshots/deployment.png)
 <br><br>
 Visit the deployed site [here](https://battleship1.herokuapp.com/).
+
+### Build log from Heroku app
+-----> Building on the Heroku-20 stack
+-----> Using buildpack: heroku/nodejs
+-----> Node.js app detected
+       
+-----> Creating runtime environment
+       
+       NPM_CONFIG_LOGLEVEL=error
+       NODE_VERBOSE=false
+       NODE_ENV=production
+       NODE_MODULES_CACHE=true
+       
+-----> Installing binaries
+       engines.node (package.json):  unspecified
+       engines.npm (package.json):   unspecified (use default)
+       
+       Resolving node version 14.x...
+       Downloading and installing node 14.17.3...
+       Using default npm version: 6.14.13
+       
+-----> Restoring cache
+       - node_modules
+       
+-----> Installing dependencies
+       Installing node modules (package.json)
+       audited 33 packages in 0.529s
+       found 4 vulnerabilities (3 low, 1 high)
+         run `npm audit fix` to fix them, or `npm audit` for details
+       
+-----> Build
+       
+-----> Caching build
+       - node_modules
+       
+-----> Pruning devDependencies
+       audited 33 packages in 0.545s
+       found 4 vulnerabilities (3 low, 1 high)
+         run `npm audit fix` to fix them, or `npm audit` for details
+       
+-----> Build succeeded!
+-----> Discovering process types
+       Procfile declares types -> web
+-----> Compressing...
+       Done: 97.9M
+-----> Launching...
+       Released v13
+       https://battleship1.herokuapp.com/ deployed to Heroku
+
 ## Credits
 As always I relied heavily on my code institute [course notes.](https://discuss.codecademy.com/t/excellent-battleship-game-written-in-python/430605)<br>I also used a number of websites and Youtube videos when building this battleships game in python these include:<br>
 ### Youtube Video
